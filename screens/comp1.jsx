@@ -1,5 +1,8 @@
+import { View, Text } from "react-native/types_generated/index";
 export function Component1(props){
     return(
-        <h1>Comp1</h1>
+        <View>
+            <Text>Comp1</Text>
+        </View>
     );
 }
